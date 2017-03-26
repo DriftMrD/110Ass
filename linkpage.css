@@ -4,7 +4,7 @@ body{
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position: center;
-	background-size:100%; 
+	background-size:cover; 
 	overflow-y: hidden;
 	overflow-x: hidden;
 	padding-bottom:0px;
