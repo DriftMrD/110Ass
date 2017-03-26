@@ -15,7 +15,9 @@ background-attachment:fixed;
 
 background-position: center;
 
-background-size: cover; 
+background-size: cover;
+    overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 #welcome{
