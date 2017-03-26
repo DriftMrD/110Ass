@@ -1,11 +1,6 @@
 body{
 	overflow-y: hidden;
 	overflow-x: hidden;
-	bottom: 0px;
-    top:0px;
-    left: 0px;
-    right: 0px;
-
 }
 .background{
 	position: absolute;
@@ -14,7 +9,6 @@ body{
     top:0px;
     left: 0px;
     right: 0px;
-    text-align: center;
     display:flex;
     justify-content:center;
 }
@@ -79,4 +73,12 @@ h1{
 	overflow-y: hidden;
 }
 }
+@media only screen  
+and (min-device-width : 800px)  
+and (max-device-width : 1280px)  
+and (orientation : landscape) {  
+ .background img{
+	height: 100%;
+	overflow-x: hidden;}
+}  
 
