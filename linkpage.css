@@ -16,13 +16,15 @@ body{
 	color:white;
 	padding-top: 25%; 
    	text-align: center;
+   	overflow-y: hidden;
+	overflow-x: hidden;
 }
 #welcome a{
 	text-decoration:none;
 }
 #foot{
 	text-align: center;
-	padding-top: 8%;
+	padding-top: 6%;
 }
 #foot small{
 	color: #E5F6FD;
@@ -73,12 +75,4 @@ h1{
 	overflow-y: hidden;
 }
 }
-@media only screen  
-and (min-device-width : 800px)  
-and (max-device-width : 1280px)  
-and (orientation : landscape) {  
- .background img{
-	height: 100%;
-	overflow-x: hidden;}
-}  
 
